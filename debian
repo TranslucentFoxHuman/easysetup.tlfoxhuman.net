@@ -1,0 +1,9 @@
+#!/bin/bash
+
+which curl >/dev/null
+if [[ "$?" != "0" ]];then
+    echo "curl is not installed. Please install curl before."
+    exit
+fi
+
+bash <(curl https://git.tlfoxhuman.net/tlfoxhuman/System-Easy-Setup-Script/raw/branch/main/debian.bash)
