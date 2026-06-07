@@ -6,4 +6,4 @@ if [[ "$?" != "0" ]];then
     exit
 fi
 
-bash <(curl https://github.com/TranslucentFoxHuman/System-Easy-Setup-Script/raw/refs/heads/devel/debian.bash)
+bash <(curl -L https://github.com/TranslucentFoxHuman/System-Easy-Setup-Script/raw/refs/heads/devel/debian.bash)
