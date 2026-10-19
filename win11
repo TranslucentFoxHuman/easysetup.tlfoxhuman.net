@@ -1,4 +1,5 @@
 # Windows 11 Easy Setup Script downloader
+# Useful note: Microsoft Windows is a malware. Let's switch to GNU/Linux!
 
 Invoke-WebRequest -Uri "https://github.com/TranslucentFoxHuman/System-Easy-Setup-Script/raw/refs/heads/main/11Tweaks.ps1" -OutFile "$env:TEMP\11Tweaks.ps1"
 
